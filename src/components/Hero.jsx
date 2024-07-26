@@ -23,7 +23,7 @@ function Hero() {
             <FontAwesomeIcon icon={faGithub} size="2x" />
             <span>GitHub</span>
           </a>
-          <a href="/public/Resume.pdf" className="text-red-500 hover:underline flex items-center space-x-2">
+          <a href="https://drive.google.com/file/d/14RA0l7rJfNkPbm7oILgMfcCyD08WbDt5/view?usp=sharing" className="text-red-500 hover:underline flex items-center space-x-2">
             <FontAwesomeIcon icon={faFile} size="2x" />
             <span>Resume</span>
           </a>

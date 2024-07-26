@@ -1,13 +1,14 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faList } from '@fortawesome/free-solid-svg-icons';
+import icon from '/src/assets/images/Icon.png';
 
 function Header() {
   return (
     <div className="navbar bg-base-100 w-10/12 mx-auto">
         <div className="flex-1 flex items-center">
             <a className="btn btn-ghost text-xl flex items-center space-x-2">
-                <img src='/src/assets/Icon.png' alt="Logo" className="logo h-8 w-8" />Cyrus' Portfolio
+                <img src={icon} alt="Logo" className="logo h-8 w-8" />Cyrus' Portfolio
             </a>
         </div>
         <div className="flex-none hidden lg:block">
