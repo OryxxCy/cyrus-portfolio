@@ -2,7 +2,7 @@ import React from 'react';
 
 const Background = () => {
     return(
-        <section id='background' className="bg-white py-10 w-10/12 mx-auto">
+        <section id='background' className="py-10 w-10/12 mx-auto">
                 <div className="container mx-auto px-4 text-center">
                     <div className="mb-8">
                     <h3 className="text-2xl font-semibold border-b-2 pb-2">Education</h3>

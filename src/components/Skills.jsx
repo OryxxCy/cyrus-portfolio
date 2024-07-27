@@ -58,7 +58,7 @@ const Skills = () => {
                 <FontAwesomeIcon icon={skill.icon} size="3x" className="text-indigo-300" />
               </div>
               <h3 className="text-2xl font-semibold mb-2">{skill.title}</h3>
-              <p className="text-gray-700">{skill.description}</p>
+              <p>{skill.description}</p>
             </div>
           ))}
         </div>

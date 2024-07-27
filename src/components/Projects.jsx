@@ -1,12 +1,13 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import CurrencyConverter from './Currency-Converter';
 
 const projects = [
   {
-    title: 'BITCollegeCS',
-    description: 'Developed a dynamic web application in C# using the .NET Framework and ASP.NET, MVC architecture, Singleton pattern, LINQ, and XML.',
-    link: 'https://github.com/OryxxCy/BITCollege_CS.git',
+    title: 'Evergreen Enclave',
+    description: 'A dynamic e-commerce website for a plant shop using Ruby on Rails and the Bulma framework, creating a responsive design to improve user experience. Integrated external APIs to get plants information and implemented Stripe for payment processing.',
+    link: 'https://github.com/OryxxCy/Evergreen_Enclave.git',
   },
   {
     title: 'Service Finders Website',
@@ -14,9 +15,9 @@ const projects = [
     link: 'https://github.com/OryxxCy/Service-Finders.git',
   },
   {
-    title: 'Evergreen Enclave',
-    description: 'Developed a dynamic e-commerce website for a plant selling business using Ruby on Rails. Utilized the Bulma framework for responsive and visually appealing design.',
-    link: 'https://github.com/OryxxCy/Evergreen_Enclave.git',
+    title: 'BITCollegeCS',
+    description: 'Developed a dynamic web application in C# using the .NET Framework and ASP.NET, MVC architecture, Singleton pattern, LINQ, and XML.',
+    link: 'https://github.com/OryxxCy/BITCollege_CS.git',
   },
 ];
 
@@ -25,11 +26,11 @@ const Projects = () => {
     <section id='projects' className="bg-gradient-to-r from-pink-300 to-indigo-300 py-16">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold">Projects</h2>
+          <h2 className="text-4xl text-black font-bold">Projects</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
-            <div key={index} className="card w-full bg-base-100 shadow-xl">
+          {projects.map(( project ) => (
+            <div className="card w-full bg-base-100 shadow-xl">
               <div className="card-body">
                 <h3 className="card-title text-2xl font-bold">{project.title}</h3>
                 <p className="mt-2">{project.description}</p>
@@ -39,6 +40,11 @@ const Projects = () => {
               </div>
             </div>
           ))}
+            <div className="card w-full bg-base-100 shadow-xl lg:col-start-2">
+              <div className="card-body">
+                <CurrencyConverter/>
+              </div>
+            </div>
         </div>
         <div className="text-center mt-12">
           <a href="https://github.com/OryxxCy" className="btn btn-primary">

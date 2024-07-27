@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faList } from '@fortawesome/free-solid-svg-icons';
+import { faList, faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 import icon from '/src/assets/images/Icon.png';
 
 function Header() {
@@ -22,7 +22,7 @@ function Header() {
         <div className="flex-none lg:hidden">
             <div className="dropdown dropdown-end">
                 <label tabIndex="0" className="btn btn-ghost lg:hidden">
-                <FontAwesomeIcon icon={faList} />
+                    <FontAwesomeIcon icon={faList} />
                 </label>
                 <ul tabIndex="0" className="menu dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                     <li><a href="#skills" className="hover:underline">Skills</a></li>
@@ -32,6 +32,11 @@ function Header() {
                 </ul>
             </div>
         </div>
+        <label className="swap swap-rotate">
+            <input type="checkbox" className="theme-controller" value="dark" />
+            <FontAwesomeIcon icon={faSun} size='lg' className='swap-off'/>
+            <FontAwesomeIcon icon={faMoon} size='lg' className='swap-on'/>
+        </label>
     </div>
   );
 }

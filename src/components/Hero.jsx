@@ -7,8 +7,8 @@ function Hero() {
   return (
     <section id="home" className="bg-gradient-to-r from-pink-300 to-indigo-300 py-20">
       <div className="container mx-auto text-center w-10/12 mx-auto">
-        <h1 className="text-5xl font-bold">Hi there! I am Cyrusbien Sarceno</h1>
-        <p className="text-xl mt-4">
+        <h1 className="text-5xl text-black font-bold">Hi there! I am Cyrusbien Sarceno</h1>
+        <p className="text-xl text-black mt-4">
             I've used HTML, CSS, JavaScript, PHP, React, C#, .NET, Next.js, Tailwind CSS, and Ruby on Rails to build web applications, giving me a strong foundation in web and software development. 
             I enjoy creating responsive layouts, adding dynamic features, and developing solid back-end systems. 
             I’m also skilled in managing databases like MySQL, PostgreSQL, and SQL Server Management Studio, and have experience with tasks such as setting up login systems and integrating external APIs. 
