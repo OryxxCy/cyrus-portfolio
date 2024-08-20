@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faDatabase, faLock, faCloud, faCogs, faGem } from '@fortawesome/free-solid-svg-icons';
-import { faPhp, faSquareGithub } from '@fortawesome/free-brands-svg-icons';
+import { faCode, faDatabase, faLock, faCogs, faGem } from '@fortawesome/free-solid-svg-icons';
+import { faPhp, faSquareGithub, faPython } from '@fortawesome/free-brands-svg-icons';
 
 const skills = [
   {
@@ -40,9 +40,9 @@ const skills = [
     icon: faSquareGithub
   },
   {
-    title: "Cloud Services",
-    description: "Knowledge of AWS and Heroku for deploying web applications.",
-    icon: faCloud
+    title: "Python",
+    description: "Built a Windows application in Python to scrape and display Winnipeg weather data from the Environment Canada website using matplotlib for graphing.",
+    icon: faPython
   }
 ];
 
