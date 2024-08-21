@@ -9,7 +9,6 @@ const Background = () => {
                         <div className="mt-4">
                             <p className="font-semibold">Business Information Technology</p>
                             <p>August 2022 – August 2024</p>
-                            <p>Expected Graduation: August 16, 2024</p>
                             <p>
                             <a href="https://www.rrc.ca/" className="hover:underline text-blue-500">
                                 Red River College Polytechnic
